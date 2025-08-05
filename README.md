@@ -48,9 +48,9 @@ This Power BI dashboard provides comprehensive analytics for a specialized colle
 sales-analytics-dashboard/
 │
 ├── 📊 Dashboards/
-│   ├── Executive-Summary.pbix
+│   ├── Business-Overview.pbix
 │   ├── Performance-Analytics.pbix
-│   └── Customer-Intelligence.pbix
+│   └── Customer-Analytics.pbix
 │
 ├── 📈 Data/
 │   ├── Sales.xlsx
@@ -188,27 +188,24 @@ sales-analytics-dashboard/
 
 ### DAX Measures Implemented
 ```dax
-// Average Order Value
+
 AOV = DIVIDE([Total Sales], [Total Orders], 0)
 
-// Customer Lifetime Value
-CLV = DIVIDE([Total Sales], DISTINCTCOUNT(Sales[CUSTOMERNAME]), 0)
-
-// Fulfillment Rate
-Fulfillment Rate = 
-DIVIDE(
-    COUNTROWS(FILTER(Sales, Sales[STATUS] = "Shipped")),
+Shipped Count = 
+CALCULATE(
     COUNTROWS(Sales),
-    0
+    Sales[STATUS] = "Shipped"
 )
 
-// Revenue Growth Rate
-Revenue Growth = 
+Shipped Percentage = 
 DIVIDE(
-    [Current Year Revenue] - [Previous Year Revenue],
-    [Previous Year Revenue],
-    0
+    [Shipped Count],
+    COUNTROWS(Sales)
 )
+
+Profit Margin = Sales[SALES] * 0.3 
+
+Price Difference = Sales[PRICEEACH] - Sales[MSRP]
 ```
 
 ### Power Query Transformations
