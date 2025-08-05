@@ -120,7 +120,7 @@ sales-analytics-dashboard/
 
 1. **Clone the Repository**
    ```bash
-   git clone https://Ahmed-Esso/Sales-Analysis-Project.git
+   git clone https://github.com/Ahmed-Esso/Sales-Analysis-Project.git
    cd sales-analytics-dashboard
    ```
 
