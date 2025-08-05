@@ -22,7 +22,7 @@ This Power BI dashboard provides comprehensive analytics for a specialized colle
 
 ### Business Overview Dashboard
 
-<img width="1513" height="850" alt="Screenshot 2025-08-06 020149" src="https://github.com/user-attachments/assets/cabd4fc5-c216-4911-b6a3-a040f86bb164" />
+<img width="1516" height="853" alt="Screenshot 2025-08-06 020117" src="https://github.com/user-attachments/assets/12e78d92-92ae-4dcf-8270-24a741702ac2" />
 
 ### Performance Analytics
 
@@ -30,7 +30,7 @@ This Power BI dashboard provides comprehensive analytics for a specialized colle
 
 ### Customer Analytics
 
-<img width="1516" height="853" alt="Screenshot 2025-08-06 020117" src="https://github.com/user-attachments/assets/12e78d92-92ae-4dcf-8270-24a741702ac2" />
+<img width="1513" height="850" alt="Screenshot 2025-08-06 020149" src="https://github.com/user-attachments/assets/cabd4fc5-c216-4911-b6a3-a040f86bb164" />
 
 ---
 
