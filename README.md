@@ -22,12 +22,15 @@ This Power BI dashboard provides comprehensive analytics for a specialized colle
 
 ### Executive Summary Dashboard
 
+<img width="1513" height="850" alt="Screenshot 2025-08-06 020149" src="https://github.com/user-attachments/assets/cabd4fc5-c216-4911-b6a3-a040f86bb164" />
 
 ### Performance Analytics
 
+<img width="1515" height="850" alt="Screenshot 2025-08-06 020134" src="https://github.com/user-attachments/assets/bc6eab82-f133-4fde-9f26-94a881170d46" />
 
 ### Customer Intelligence
 
+<img width="1516" height="853" alt="Screenshot 2025-08-06 020117" src="https://github.com/user-attachments/assets/12e78d92-92ae-4dcf-8270-24a741702ac2" />
 
 ---
 
