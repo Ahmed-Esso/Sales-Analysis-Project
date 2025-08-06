@@ -34,6 +34,10 @@ This Power BI dashboard provides comprehensive analytics for a specialized colle
 
 ---
 
+
+https://github.com/user-attachments/assets/2efead1c-9c8d-4767-a599-1db0057b239c
+
+
 ## 🛠️ Tech Stack
 
 | Technology | Purpose | Version |
